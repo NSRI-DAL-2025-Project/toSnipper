@@ -1,0 +1,21 @@
+Package: toSnipper
+Type: Package
+Title: Converts XLSX or CSV genotype files into SNIPPER-analysis-ready files
+Version: 0.0.1.0
+Depends: R (>= 4.0.0)
+Imports:
+	pacman,
+    	tools,
+    	stringr,
+	readr,
+	readxl,
+	vcfR,
+	dplyr,
+	purrr,
+	plyr,
+	openxlsx	
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
